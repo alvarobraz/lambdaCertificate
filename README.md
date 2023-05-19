@@ -27,19 +27,18 @@
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
-  <a href="#framed_picture-imagens">Imagens</a> &#xa0; &#xa0;
+  <a href="#checkered_flag-começando">Começando</a>
 </p>
 
 <br>
 
 ## :dart: Sobre ##
 
-O projeto lambdaCertificate se trata de funções em Serverless (não servidor), apesar do nome existe um servidor por trás da aplicação, mas não é necessário seu gerenciamento, o próprio provedor faz isso.<br/>
-O projeto consiste em uma emissão de um certificado para aluno, os dados vêm de uma tabela NoSQL populada no DynamoDB, implementada em funções lambda na aws, permite upar o certificado em pdf no s3 da aws, projetado para ações que seriam usadas de tempo em tempo sem a necessidade de um servidor rodando full time.<br/>
-Forma criadas dois end-points, um apara criação e outro para verificação da existência deste certificado:<br/>
-[POST]-https://xgl5kq688b.execute-api.us-east-1.amazonaws.com/dev/generateCertificate<br/>
-[GET]-https://xgl5kq688b.execute-api.us-east-1.amazonaws.com/dev/generateCertificate/{id}
+O projeto lambdaCertificate se trata de funções em Serverless (não servidor), apesar do nome existe um servidor por trás da aplicação, mas não é necessário seu gerenciamento, o próprio provedor faz isso.<br/><br/>
+O projeto consiste em uma emissão de um certificado para aluno, os dados vêm de uma tabela NoSQL populada no DynamoDB, implementada em funções lambda na aws, permite upar o certificado em pdf no s3 da aws, projetado para ações que seriam usadas de tempo em tempo sem a necessidade de um servidor rodando full time.<br/><br/>
+Forma criadas dois end-points, um apara criação e outro para verificação da existência deste certificado:<br/><br/>
+[POST] -https://xgl5kq688b.execute-api.us-east-1.amazonaws.com/dev/generateCertificate<br/>
+[GET]  -https://xgl5kq688b.execute-api.us-east-1.amazonaws.com/dev/generateCertificate/{id}
 <br>
 
 ## :rocket: Tecnologias ##
