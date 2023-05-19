@@ -26,6 +26,7 @@
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#estrutura">Estrutura</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a>
 </p>
@@ -54,6 +55,28 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [dayjs](https://day.js.org/)
 - [handlebars](https://handlebarsjs.com/)
 - [puppeteer-core](https://www.npmjs.com/package/puppeteer-core)
+
+## :estrutura ##
+
+```
+.
+├── certificate.pdf
+├── package.json
+├── package-lock.json
+├── README.md
+├── serverless.ts
+├── src
+│   ├── functions
+│   │   ├── generateCertificate.ts
+│   │   └── verifyCertificate.ts
+│   ├── templates
+│   │   ├── certificate.hbs
+│   │   └── selo.png
+│   └── utils
+│       └── dynamodbClient.ts
+├── tsconfig.json
+└── yarn.lock
+```
 
 ## :white_check_mark: Requerimentos ##
 
