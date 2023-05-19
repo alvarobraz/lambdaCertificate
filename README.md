@@ -56,7 +56,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [handlebars](https://handlebarsjs.com/)
 - [puppeteer-core](https://www.npmjs.com/package/puppeteer-core)
 
-## :page_facing_up Estrutura ##
+## \U{1F5D2} Estrutura ##
 
 ```
 .
